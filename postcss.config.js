@@ -1,12 +1,6 @@
-// project-root/postcss.config.cjs
-module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {},   // ← the new wrapper!
-    autoprefixer: {}
-  }
+import postcss from '@tailwindcss/postcss';
+import autoprefixer from 'autoprefixer';
+
+export default {
+  plugins: [postcss(), autoprefixer()],
 };
-
-
-
-
-

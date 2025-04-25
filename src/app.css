@@ -1,14 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
-
-    
     background: #010007;
     background: linear-gradient(138deg, rgb(3, 0, 14) 0%, rgba(24, 51, 102, 1) 100%);
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-
 }
